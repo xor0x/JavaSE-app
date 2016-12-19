@@ -10,7 +10,7 @@ import java.util.Arrays;
  * Test for com.urise.webapp.storage.ArrayStorage
  */
 public class MainArray {
-   private final static Storage ARRAY_STORAGE = new ArrayStorage();
+   private final static ArrayStorage ARRAY_STORAGE = new ArrayStorage();
 
     public static void main(String[] args) {
       final  Resume r1 = new Resume();
