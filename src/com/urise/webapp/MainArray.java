@@ -3,8 +3,6 @@ package com.urise.webapp;
 import com.urise.webapp.model.Resume;
 import com.urise.webapp.storage.ArrayStorage;
 
-import java.util.Arrays;
-
 /**
  *
  * Test for com.urise.webapp.storage.ArrayStorage
@@ -13,12 +11,13 @@ public class MainArray {
    private final static ArrayStorage ARRAY_STORAGE = new ArrayStorage();
 
     public static void main(String[] args) {
-      final  Resume r1 = new Resume();
-        r1.setUuid("uuid1");
-       final Resume r2 = new Resume();
-        r2.setUuid("uuid2");
-      final  Resume r3 = new Resume();
-        r3.setUuid("uuid3");
+        String uuid = null;
+      final  Resume r1 = new Resume(uuid);
+
+       final Resume r2 = new Resume(uuid);
+
+      final  Resume r3 = new Resume(uuid);
+
 
 
         ARRAY_STORAGE.save(r1);
