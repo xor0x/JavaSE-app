@@ -1,9 +1,11 @@
 package com.urise.webapp.storage;
 
 /**
- * Created by Alex on 02.01.2017.
+ * gkislin
+ * 12.06.2016
  */
- public class ArrayStorageTest extends AbstractArrayStorageTest {
+public class ArrayStorageTest extends AbstractArrayStorageTest {
+
     public ArrayStorageTest() {
         super(new ArrayStorage());
     }
