@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  */
 public class ListStorageTest extends AbstractStorageTest{
 
-    public ListStorageTest(Storage storage) {
+    public ListStorageTest() {
         super(new ListStorage());
     }
 }
